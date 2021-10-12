@@ -1,0 +1,26 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "z00000000000000",
+                "Event": "Steve Taylor Tyres",
+                "Location": "15 Clark Road, Kamo, Whangārei 0112",
+                "City": "Whangarei",
+                "Start": "9\/10\/2021, 8:00 am",
+                "End": "5\/10\/2021, 5:00 pm",
+                "Advice": "Self-monitor for COVID-19 symptoms for 14 days after you were exposed at this location of interest. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
+                "Added": "13\/10\/2021 16:48",
+                "official": false
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.29999721358595,
+                    -35.68408973368716
+                ]
+            }
+        }
+    ]
+}
