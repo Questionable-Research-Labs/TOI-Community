@@ -12,7 +12,8 @@
                 "End": "5\/10\/2021, 5:00 pm",
                 "Advice": "Self-monitor for COVID-19 symptoms for 14 days after you were exposed at this location of interest. If symptoms develop, get a test and stay at home until you get a negative test result AND until 24 hours after symptoms resolve.",
                 "Added": "13\/10\/2021 16:48",
-                "official": false
+                "Official": false,
+                "Link": "https://www.facebook.com/stevetaylortyres/?eid=ARDaV5XYwRmrvZdNGKcrJvFZHFaFO-wXKvhkfHX_4-D3OqkU3uYWMIlk5Es3iLeGCuzv7t1rbSV5d5ih&hc_ref=ARQ6OZjAlRkW7gquW7CyAepfuh8tu9fF3MEY4WnV6JqKBKIJ49OGmUXTNUbWa-mvvzY&fref=nf"
             },
             "geometry": {
                 "type": "Point",
