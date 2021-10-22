@@ -1,4 +1,27 @@
 {
     "type": "FeatureCollection",
-    "features": []
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "id": "z00000000000001",
+                "Event": "Parua Bay Tavern",
+                "Location": "1034 Whangarei Heads Road, Parua Bay 0174",
+                "Start": "20\/10\/2021, 11:30 am",
+                "End": "21\/10\/2021, 8:30 pm",
+                "City": "Whangarei",
+                "Advice": "Parua Bay Tavern has recently had a family member of one of their staff test positive. They have currently closed their business while all staff members are awaiting covid test results. Click the \"View More Info\" link to see the Facebook posts from Parua Bay Tavern.",
+                "Added": "22\/10\/2021 15:20",
+                "Official": false,
+                "Link": "https://www.facebook.com/paruabaytavernparuabay/"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    174.45169246733826,
+                    -35.772766922577055 
+                ]
+            }
+        }
+    ]
 }
