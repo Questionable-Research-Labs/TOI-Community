@@ -5,7 +5,7 @@
             "type": "Feature",
             "properties": {
                 "id": "z00000000000002",
-                "Event": "Pak'nSave Whangarei",
+                "Event": "PaknSave Whangarei",
                 "Location": "Walton Street, Whangārei 0110",
                 "Start": "1\/11\/2021, 11:30 am",
                 "End": "1\/10\/2021, 1:50 pm",
@@ -18,8 +18,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -35.72575123373903,
-                    174.32479210493398
+                    174.32479210493398,
+                    -35.72575123373903
                 ]
             }
         }
