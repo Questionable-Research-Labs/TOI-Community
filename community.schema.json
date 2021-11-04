@@ -1,0 +1,100 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+        "type": {
+            "type": "string"
+        },
+        "features": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "type": {
+                            "type": "string"
+                        },
+                        "properties": {
+                            "type": "object",
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                },
+                                "Event": {
+                                    "type": "string"
+                                },
+                                "Location": {
+                                    "type": "string"
+                                },
+                                "Start": {
+                                    "type": "string"
+                                },
+                                "End": {
+                                    "type": "string"
+                                },
+                                "City": {
+                                    "type": "string"
+                                },
+                                "Advice": {
+                                    "type": "string"
+                                },
+                                "Added": {
+                                    "type": "string"
+                                },
+                                "Official": {
+                                    "enum": [false]
+                                },
+                                "Link": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "id",
+                                "Event",
+                                "Location",
+                                "Start",
+                                "End",
+                                "City",
+                                "Advice",
+                                "Added",
+                                "Official"
+                            ]
+                        },
+                        "geometry": {
+                            "type": "object",
+                            "properties": {
+                                "type": {
+                                    "type": "string"
+                                },
+                                "coordinates": {
+                                    "type": "array",
+                                    "items": [
+                                        {
+                                            "type": "number"
+                                        },
+                                        {
+                                            "type": "number"
+                                        }
+                                    ]
+                                }
+                            },
+                            "required": [
+                                "type",
+                                "coordinates"
+                            ]
+                        }
+                    },
+                    "required": [
+                        "type",
+                        "properties",
+                        "geometry"
+                    ]
+                }
+            ]
+        }
+    },
+    "required": [
+        "type",
+        "features"
+    ]
+}
